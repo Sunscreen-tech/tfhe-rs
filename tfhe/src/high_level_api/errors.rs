@@ -46,7 +46,11 @@ pub enum Type {
     #[cfg(feature = "integer")]
     FheUint16,
     #[cfg(feature = "integer")]
+    FheUint24,
+    #[cfg(feature = "integer")]
     FheUint32,
+    #[cfg(feature = "integer")]
+    FheUint48,
     #[cfg(feature = "integer")]
     FheUint64,
     #[cfg(feature = "integer")]

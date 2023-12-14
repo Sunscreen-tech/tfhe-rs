@@ -1,6 +1,6 @@
 expand_pub_use_fhe_type!(
     pub use types{
-        FheUint8, FheUint10, FheUint12, FheUint14, FheUint16, FheUint32, FheUint64, FheUint128,
+        FheUint8, FheUint10, FheUint12, FheUint14, FheUint16, FheUint24, FheUint32, FheUint48, FheUint64, FheUint128,
         FheUint256, FheInt8, FheInt16, FheInt32, FheInt64, FheInt128, FheInt256
     };
 );

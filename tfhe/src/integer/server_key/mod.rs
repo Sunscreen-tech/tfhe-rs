@@ -100,6 +100,10 @@ impl ServerKey {
         ServerKey { key }
     }
 
+    pub fn shortint_key(&self) -> &crate::shortint::ServerKey {
+        &self.key
+    }
+
     pub fn deterministic_pbs_execution(&self) -> bool {
         self.key.deterministic_pbs_execution()
     }

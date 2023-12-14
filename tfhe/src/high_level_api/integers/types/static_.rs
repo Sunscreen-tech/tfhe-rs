@@ -281,9 +281,27 @@ static_int_type! {
 
 static_int_type! {
     Unsigned {
+        num_bits: 24,
+        parameters: Radix {
+            num_block: 12,
+        },
+    }
+}
+
+static_int_type! {
+    Unsigned {
         num_bits: 32,
         parameters: Radix {
             num_block: 16,
+        },
+    }
+}
+
+static_int_type! {
+    Unsigned {
+        num_bits: 48,
+        parameters: Radix {
+            num_block: 24,
         },
     }
 }
