@@ -127,7 +127,7 @@ to run in release mode with cargo's `--release` flag to have the best performanc
 
 There are two ways to contribute to TFHE-rs:
 
-- you can open issues to report bugs or typos, or to suggest new ideas
+- you can open issues to report bugs or typos, or to suggest new ideas.
 - you can ask to become an official contributor by emailing [hello@zama.ai](mailto:hello@zama.ai).
 (becoming an approved contributor involves signing our Contributor License Agreement (CLA))
 
